@@ -1,0 +1,47 @@
+#game-result, #newgame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color:  white;
+  border-radius: 15px;
+  width: 100%;
+  aspect-ratio: 10/1;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+#newgame {
+  background-color: orange;
+  color: black;
+}
+
+#newgame:hover {
+  background-color: rgb(209, 149, 36);
+  cursor: pointer;
+}
+
+.play {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row; 
+  gap:10px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 450px;
+  width:85%;
+  flex-grow: 1;
+  }
+
+.letters {
+  flex: 1 1 calc(20% - 13px);
+  border: 1px black solid;
+  aspect-ratio: 1/1;
+  background-color: rgb(241, 179, 85);
+  border-radius: 12px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(35px, 85%, 45px);
+  font-weight: bolder;
+}
